@@ -1,0 +1,11 @@
+a<-c(200,300,400,600,1000)
+new_min=0
+new_max=1
+max=1000
+min=200
+min_max=a-min/max-min
+print(min_max)
+y<-mean(a)
+z<-sd(a)
+v<-a-y/z
+print(v)
